@@ -161,7 +161,7 @@ module.exports = plugin(
 					infinite: "infinite",
 				},
 				animation: ({ theme }) => ({
-					out: `leave ${theme("animationDuration.DEFAULT")}`,
+					out: `exit ${theme("animationDuration.DEFAULT")}`,
 					in: `enter ${theme("animationDuration.DEFAULT")}`,
 				}),
 				keyframes: {
